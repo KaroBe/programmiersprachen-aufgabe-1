@@ -30,6 +30,6 @@ while(foundit == false){
 	div = div + 20;
 }
 div = div-20;
-
+std::cout << "Ergebnis: " << div;
 return 0;
 }

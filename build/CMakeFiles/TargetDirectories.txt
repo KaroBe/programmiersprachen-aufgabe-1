@@ -1,0 +1,6 @@
+/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/CMakeFiles/rebuild_cache.dir
+/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/CMakeFiles/edit_cache.dir
+/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/edit_cache.dir
+/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/rebuild_cache.dir
+/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/tests.dir
+/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/helloworld.dir

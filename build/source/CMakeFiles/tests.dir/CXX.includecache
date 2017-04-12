@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/source/tests.cpp
+catch.hpp
+-
+cmath
+-
+
