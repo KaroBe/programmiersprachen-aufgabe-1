@@ -1,6 +1,7 @@
-/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/CMakeFiles/rebuild_cache.dir
-/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/CMakeFiles/edit_cache.dir
-/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/edit_cache.dir
-/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/rebuild_cache.dir
-/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/tests.dir
-/home/kodo8354/Dokumente/programmiersprachen-aufgabe-1/build/source/CMakeFiles/helloworld.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build/CMakeFiles/edit_cache.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build/CMakeFiles/rebuild_cache.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build/source/CMakeFiles/helloworld.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build/source/CMakeFiles/rebuild_cache.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build/source/CMakeFiles/edit_cache.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build/source/CMakeFiles/tests.dir
+/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build/source/CMakeFiles/aufgabe1.8.dir

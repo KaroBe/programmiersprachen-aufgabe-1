@@ -1,5 +1,5 @@
 # define CATCH_CONFIG_RUNNER
-# include "catch .hpp"
+# include "catch.hpp"
 # include <cmath>
 
 int gcd (int a, int b)
