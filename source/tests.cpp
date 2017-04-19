@@ -41,13 +41,24 @@ TEST_CASE (" describe_gcd ", "[gcd]")
 
 int checksum (int a)
 {
-	return 1;
+	int sum = 0;
+
+	while (a>0)
+	{
+		sum += a % 10;
+		a = a/10;
+	}
+
+	return sum;
 }
 
 TEST_CASE (" describe_checksum ", "[checksum]")
 {
-	REQUIRE (checksum (5) == 15);
-	REQUIRE (checksum (117190) == );
+	REQUIRE (checksum (5) == 5);
+	REQUIRE (checksum (14) == 5);
+	REQUIRE (checksum (10) == 1);
+	REQUIRE (checksum (140) == 5);
+	REQUIRE (checksum (117190) == 19);
 }
 
 int main(int argc, char* argv[])
