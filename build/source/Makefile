@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/karoline/Dokumente/studium/17_sose/programmiersprachen/
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -141,46 +141,19 @@ tests/fast:
 .PHONY : tests/fast
 
 # Convenience name for target.
-source/CMakeFiles/aufgabe1.8.dir/rule:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/aufgabe1.8.dir/rule
-.PHONY : source/CMakeFiles/aufgabe1.8.dir/rule
+source/CMakeFiles/mileToKilometer.dir/rule:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f CMakeFiles/Makefile2 source/CMakeFiles/mileToKilometer.dir/rule
+.PHONY : source/CMakeFiles/mileToKilometer.dir/rule
 
 # Convenience name for target.
-aufgabe1.8: source/CMakeFiles/aufgabe1.8.dir/rule
+mileToKilometer: source/CMakeFiles/mileToKilometer.dir/rule
 
-.PHONY : aufgabe1.8
+.PHONY : mileToKilometer
 
 # fast build rule for target.
-aufgabe1.8/fast:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1.8.dir/build.make source/CMakeFiles/aufgabe1.8.dir/build
-.PHONY : aufgabe1.8/fast
-
-aufgabe1.8.o: aufgabe1.8.cpp.o
-
-.PHONY : aufgabe1.8.o
-
-# target to build an object file
-aufgabe1.8.cpp.o:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1.8.dir/build.make source/CMakeFiles/aufgabe1.8.dir/aufgabe1.8.cpp.o
-.PHONY : aufgabe1.8.cpp.o
-
-aufgabe1.8.i: aufgabe1.8.cpp.i
-
-.PHONY : aufgabe1.8.i
-
-# target to preprocess a source file
-aufgabe1.8.cpp.i:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1.8.dir/build.make source/CMakeFiles/aufgabe1.8.dir/aufgabe1.8.cpp.i
-.PHONY : aufgabe1.8.cpp.i
-
-aufgabe1.8.s: aufgabe1.8.cpp.s
-
-.PHONY : aufgabe1.8.s
-
-# target to generate assembly for a file
-aufgabe1.8.cpp.s:
-	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/aufgabe1.8.dir/build.make source/CMakeFiles/aufgabe1.8.dir/aufgabe1.8.cpp.s
-.PHONY : aufgabe1.8.cpp.s
+mileToKilometer/fast:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/build
+.PHONY : mileToKilometer/fast
 
 helloworld.o: helloworld.cpp.o
 
@@ -208,6 +181,33 @@ helloworld.s: helloworld.cpp.s
 helloworld.cpp.s:
 	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/helloworld.dir/build.make source/CMakeFiles/helloworld.dir/helloworld.cpp.s
 .PHONY : helloworld.cpp.s
+
+mileToKilometer.o: mileToKilometer.cpp.o
+
+.PHONY : mileToKilometer.o
+
+# target to build an object file
+mileToKilometer.cpp.o:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.o
+.PHONY : mileToKilometer.cpp.o
+
+mileToKilometer.i: mileToKilometer.cpp.i
+
+.PHONY : mileToKilometer.i
+
+# target to preprocess a source file
+mileToKilometer.cpp.i:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.i
+.PHONY : mileToKilometer.cpp.i
+
+mileToKilometer.s: mileToKilometer.cpp.s
+
+.PHONY : mileToKilometer.s
+
+# target to generate assembly for a file
+mileToKilometer.cpp.s:
+	cd /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/build && $(MAKE) -f source/CMakeFiles/mileToKilometer.dir/build.make source/CMakeFiles/mileToKilometer.dir/mileToKilometer.cpp.s
+.PHONY : mileToKilometer.cpp.s
 
 tests.o: tests.cpp.o
 
@@ -243,16 +243,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... helloworld"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... tests"
-	@echo "... aufgabe1.8"
-	@echo "... aufgabe1.8.o"
-	@echo "... aufgabe1.8.i"
-	@echo "... aufgabe1.8.s"
+	@echo "... rebuild_cache"
+	@echo "... mileToKilometer"
 	@echo "... helloworld.o"
 	@echo "... helloworld.i"
 	@echo "... helloworld.s"
+	@echo "... mileToKilometer.o"
+	@echo "... mileToKilometer.i"
+	@echo "... mileToKilometer.s"
 	@echo "... tests.o"
 	@echo "... tests.i"
 	@echo "... tests.s"
