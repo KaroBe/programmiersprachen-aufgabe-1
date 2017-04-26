@@ -8,7 +8,7 @@
 
 int gcd (int a, int b)
 {
-	//test valid types
+	//here i could test valid types
 
 	if (a == b)
 	{
@@ -43,9 +43,9 @@ TEST_CASE (" describe_gcd ", "[gcd]")
 	REQUIRE (gcd (3 ,7) == 1);
 }
 
-/**********
+/************
 ** Checksum
-**********/
+************/
 
 int checksum (int a)
 {
@@ -152,6 +152,9 @@ TEST_CASE (" describe_zylinder_surf ", "[zylinder_surf]")
 
 int fakultaet (int a)
 {
+	if (a<1){
+		return 1;
+	}
 	int x = 1;
 	for (int i = 1; i <= a; ++i)
 	{
@@ -168,14 +171,14 @@ TEST_CASE (" describe_fakulataet ", "[fakultaet]")
 
 }
 
-int binomial (int n, int k)
+int binomial (unsigned int n, unsigned int k)
 {
 	// für n, k nichtnegative ganze Zahlen, n>=k
 	//	n!/k! *(n-k)!;
 
-	if (n < k or n < 0 or k < 0)
+	if (n < k)
 	{
-		return -1;
+		return 0;
 	}
 	else
 	{
@@ -188,7 +191,7 @@ TEST_CASE (" describe_binomial ", "[binomial]")
 	REQUIRE (binomial(5,3) == 10);
 	REQUIRE (binomial(2,1) == 2);
 	REQUIRE (binomial(2,0) == 1);
-	REQUIRE (binomial(0,1) == -1);
+	REQUIRE (binomial(0,1) == 0);
 }
 
 /***********************

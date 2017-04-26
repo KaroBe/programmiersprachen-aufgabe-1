@@ -1,4 +1,4 @@
-# Install script for directory: /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/source
+# Install script for directory: /home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-1/source
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

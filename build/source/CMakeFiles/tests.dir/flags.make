@@ -6,5 +6,5 @@ CXX_FLAGS = -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabe-1/external/catch-1.4.0 
+CXX_INCLUDES = -I/home/karoline/Dokumente/studium/17_sose/programmiersprachen/programmiersprachen-aufgabenblatt-1/external/catch-1.4.0 
 
